@@ -10,7 +10,8 @@ export default function renderCoDriver(container = null) {
   root.innerHTML = `
     <div class="site">
       <header class="site-header">
-        <h1 class="logo">CoDriver</h1>
+        <img src="img/codriver.svg" alt="CoDriver home" class="logo"
+    /></a>
         <nav class="nav-links">
           <a href="#why" class="nav-link">Why CoDriver</a>
           <a href="#features" class="nav-link">Features</a>
@@ -24,16 +25,13 @@ export default function renderCoDriver(container = null) {
         </div>
       </header>
 
-      <section id="hero" class="section hero">
-        <h2 class="hero-title">Turn every sales conversation into a winning one</h2>
+      <section id="hero" class="section-hero">
+        <h1 class="hero-title">Turn every sales conversation into a winning one</h1>
         <p class="hero-text">
-          CoDriver is the real-time sales companion that helps car salespeople
-          understand buyer motivations, position their models with confidence,
-          and deliver persuasive product arguments — exactly when it matters most.
+          CoDriver is a real-time sales companion for salespeople in car dealerships.
         </p>
         <div class="hero-actions">
           <button class="btn btn-primary">Book Demo</button>
-          <button class="btn btn-outline">Watch Video</button>
         </div>
       </section>
 
