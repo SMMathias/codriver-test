@@ -26,13 +26,15 @@ export default function renderCoDriver(container = null) {
       </header>
 
       <section id="hero" class="section-hero">
-        <h1 class="hero-title">Turn every sales conversation into a winning one</h1>
+        <h1 class="hero-title">Turn every sales conversation <br> into a winning one</h1>
         <p class="hero-text">
           CoDriver is a real-time sales companion for salespeople in car dealerships.
         </p>
         <div class="hero-actions">
           <button class="btn btn-primary">Book Demo</button>
         </div>
+        <div>
+        <img class="hero-img" src="../img/ui.svg" alt="UI illustration"></div>
       </section>
 
       <section id="why" class="section section-why">
