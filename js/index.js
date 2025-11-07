@@ -1,4 +1,4 @@
-import renderCoDriver from "./react.js";
+import renderCoDriver from "./render.js";
 
 renderCoDriver();
 
