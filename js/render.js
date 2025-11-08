@@ -13,7 +13,7 @@ export default function renderCoDriver(container = null) {
         <a href="#hero">
         <img src="img/codriver.svg" alt="CoDriver home" class="logo" />
         </a>
-        <nav class="nav-links">
+        <nav id="primary-menu" class="nav-links" aria-label="Primary">
           <a href="#why" class="nav-link">Why CoDriver</a>
           <a href="#features" class="nav-link">Features</a>
           <a href="#pricing" class="nav-link">Pricing</a>
@@ -21,10 +21,15 @@ export default function renderCoDriver(container = null) {
           <a href="#contact" class="nav-link">Contact</a>
         </nav>
         <div class="header-actions">
-          <button class="btn btn-outline">Login</button>
+          <button class="btn btn-outline">Log in</button>
           <button class="btn btn-primary">Book Demo</button>
           <button class="btn btn-primary">Get Started</button>
         </div>
+        <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </header>
 
       <section id="hero" class="section-hero">
