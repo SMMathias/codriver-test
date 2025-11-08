@@ -97,8 +97,8 @@ export default function renderCoDriver(container = null) {
             ],
           ]
             .map(
-              ([title, text]) => `
-            <div class="feature-card">
+              ([title, text], index) => `
+            <div class="feature-card feature-card-${index + 1}">
               <h4 class="feature-card-title">${title}</h4>
               <p class="feature-card-text">${text}</p>
             </div>`
@@ -129,8 +129,8 @@ export default function renderCoDriver(container = null) {
             ],
           ]
             .map(
-              ([plan, sub, features]) => `
-            <div class="pricing-card">
+              ([plan, sub, features], index) => `
+            <div class="pricing-card pricing-card-${index + 1}">
               <h4 class="pricing-card-title">${plan}</h4>
               <p class="pricing-card-sub">${sub}</p>
               <p class="pricing-card-text">${features}</p>
