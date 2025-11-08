@@ -41,7 +41,7 @@ export default function renderCoDriver(container = null) {
           <button class="btn btn-primary">Book Demo</button>
         </div>
         <div>
-        <img class="hero-img" src="../img/ui.svg" alt="UI illustration"></div>
+        <img class="hero-img" src="/img/ui.svg" alt="UI illustration"></div>
       </section>
 
       <section id="why" class="section section-why">
