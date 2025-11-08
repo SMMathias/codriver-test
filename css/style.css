@@ -529,21 +529,10 @@ button {
   margin-right: 50px;
   margin-left: 50px;
 }
-.pricing-card-2 {
-  transform: scale(1.2);
-  background: linear-gradient(var(--color-purple)) 100%, var(--color-pink);
-  color: var(--color-base);
-  border: 2px solid var(--color-pink);
-  box-shadow: 0 12px 32px rgba(101, 99, 251, 0.4);
-  z-index: 2;
-  position: relative;
-}
-
 .pricing-card.active {
   transform: scale(1.25);
   background: var(--color-gold);
   color: var(--color-base);
-  border: 2px solid var(--color-pink);
   box-shadow: 0 14px 36px rgba(101, 99, 251, 0.5);
   transition: all 0.25s ease;
 }
